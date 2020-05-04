@@ -1,4 +1,4 @@
-const mongoCollections = require('../config/mongoCollections');
+const mongoCollections = require('../config/mongoCollections')
 const comments = mongoCollections.comments;
 const users = require('./users');
 const moments = require("./moments");
